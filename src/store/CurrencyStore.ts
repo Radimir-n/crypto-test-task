@@ -1,5 +1,6 @@
 import { makeAutoObservable } from 'mobx';
-import { StatusModel } from './StatusModel.ts';
+import { StatusModel } from './StatusModel';
+
 
 export class CurrencyStore {
   public amount = '';

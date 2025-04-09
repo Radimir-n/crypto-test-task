@@ -1,12 +1,14 @@
 import { observer } from 'mobx-react-lite';
-import { useStore } from '../../hooks/useStore.ts';
+
 import styled from 'styled-components';
 import { Button } from 'antd';
 
 import { SwapOutlined } from '@ant-design/icons';
-import { ExchangerCurrencyKeys } from '../../store/ExchangeStore.ts';
-import { ICoinOption } from '../../types/coins.ts';
+
 import { InputWithSelect } from '../index';
+import { useStore } from '../../hooks/useStore';
+import { ExchangerCurrencyKeys } from '../../store/ExchangeStore';
+import { ICoinOption } from '../../types/coins';
 
 const ExchangerWrapper = styled.div`
   display: flex;

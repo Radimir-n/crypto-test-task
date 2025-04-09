@@ -1,11 +1,13 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { AppStore } from './store/AppStore.ts';
+
 import { StoreProvider } from './providers/ContextProvider';
 
-import { App } from './App.tsx';
-import './styles/index.css';
+
+import './styles/index.css'
 import { initializeReactions } from './service/appService';
+import { App } from './App';
+import { AppStore } from './store/AppStore';
 
 const store = new AppStore();
 initializeReactions(store);

@@ -1,8 +1,9 @@
 import { ChangeEvent, useMemo, useState } from 'react';
 import { Flex, Input, Select, Spin, Typography } from 'antd';
 import { observer } from 'mobx-react-lite';
-import { IOption } from '../../types/common.ts';
+
 import styled from 'styled-components';
+import { IOption } from '../../types/common';
 
 const { Text } = Typography;
 

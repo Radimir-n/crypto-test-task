@@ -1,4 +1,5 @@
-import { IOption } from './common.ts';
+import { IOption } from "./common";
+
 
 export interface ICoin {
   id: number;

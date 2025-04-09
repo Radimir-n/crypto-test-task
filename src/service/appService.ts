@@ -1,7 +1,9 @@
 import { reaction, when } from 'mobx';
-import { AppStore } from '../store/AppStore.ts';
+
 import { getCoins, getConversion } from '../api/coins.api';
-import { IConversionRequest, IConversionResponse } from '../types/conversion.ts';
+import { AppStore } from '../store/AppStore';
+import { IConversionRequest, IConversionResponse } from '../types/conversion';
+
 import { debounce } from '../utils/debounce';
 import { logError } from '../utils/logError';
 

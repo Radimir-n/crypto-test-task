@@ -1,5 +1,6 @@
 import { makeAutoObservable } from 'mobx';
-import { ICoin, ICoinOption } from '../types/coins.ts';
+import { ICoin, ICoinOption } from '../types/coins';
+
 
 export class CoinStore {
   public coins = [] as ICoin[];

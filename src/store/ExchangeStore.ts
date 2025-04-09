@@ -1,6 +1,7 @@
 import { makeAutoObservable } from 'mobx';
-import { CurrencyStore } from './CurrencyStore.ts';
-import { StatusModel } from './StatusModel.ts';
+import { CurrencyStore } from './CurrencyStore';
+import { StatusModel } from './StatusModel';
+
 
 export type ExchangerCurrencyKeys = 'from' | 'to';
 

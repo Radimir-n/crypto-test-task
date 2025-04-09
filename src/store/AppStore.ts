@@ -1,5 +1,6 @@
-import { ExchangeStore } from './ExchangeStore.ts';
-import { CoinStore } from './CoinStore.ts';
+import { CoinStore } from "./CoinStore";
+import { ExchangeStore } from "./ExchangeStore";
+
 
 export interface IAppStore {
   coinStore: CoinStore;
